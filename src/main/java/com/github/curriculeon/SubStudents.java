@@ -1,5 +1,4 @@
 package com.github.curriculeon;
 
-public class Person {
-
+public class SubStudents  {
 }

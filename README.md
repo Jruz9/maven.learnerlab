@@ -112,7 +112,7 @@
 
 -
 ### Part 7.1 - Create `Students` singleton
-* **Note:** The creation of this class will demonstrate an implementation of [singleton design pattern](https://www.journaldev.com/1377/java-singleton-design-pattern-best-practices-examples#eager-initialization).
+    * **Note:** The creation of this class will demonstrate an implementation of [singleton design pattern](https://www.journaldev.com/1377/java-singleton-design-pattern-best-practices-examples#eager-initialization).
 * Create a `Students` class.
 	* The class should be an _unextendable_ subclass of the `People` class.
 	* The class should _statically instantiate_ a `final` field named `INSTANCE` of type `Students`.
