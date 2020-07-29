@@ -63,7 +63,8 @@ abstract public class People <somePersonType extends person> implements Iterable
         return personList.size();
     }
 
-    abstract public somePersonType[] toArray();
+    abstract public somePersonType[] toArray(); // in class leon explain we cannot make an array here
+    // so we make it abstract and implement it on other classes that use to Array method to transform our list ot arrays
 
 
     @Override
